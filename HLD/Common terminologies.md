@@ -22,3 +22,6 @@
 
 ### ii. Sensor Data Collection
 - **Apache Kafka**: While not a traditional database, Kafka is often used as a high-throughput write-heavy pipeline for ingesting sensor data, which is then written to a database like Cassandra.
+
+## 3. Graph DB
+- **Neo4j**: One of the most widely used graph databases, known for its robust query language (Cypher) and large community.
