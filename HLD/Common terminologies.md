@@ -25,3 +25,11 @@
 
 ## Graph DB
 - **Neo4j**: One of the most widely used graph databases, known for its robust query language (Cypher) and large community.
+
+# Caching
+
+- Write-Through: Data is written to both the cache and storage simultaneously, ensuring consistency but increasing latency.
+- Write-Around: Data is written directly to storage, bypassing the cache, reducing cache write load but increasing cache misses.
+- Write-Back: Data is written to the cache first and later to storage, improving performance but risking data loss if the cache fails.
+- Read-Through: Data is read from the cache; if missing, it's fetched from storage, cached, and returned.
+- Read-Around: Data is read directly from storage, skipping the cache, often for data where caching isn't needed.
