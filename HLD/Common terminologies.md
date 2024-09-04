@@ -39,3 +39,5 @@
 - Token based
   - JWT
   - OAuth: Client, Authorization Server, Resource Server, User
+ 
+# Big Data
