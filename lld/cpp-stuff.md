@@ -16,7 +16,8 @@
 
 - Virtual Destructor
   -  Ensures that destructors of derived classes are called properly when an object is deleted via a pointer to the base class
-  -  It is critical when dealing with polymorphism to avoid memory leaks.
+  -  It is critical when dealing with polymorphism to avoid memory leaks
+  -  If your class has any virtual functions, you should also have a virtual destructor to allow safe polymorphic deletion
  
 - Polymorphism
   - Runtime Polymorphism
