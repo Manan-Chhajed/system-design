@@ -1,3 +1,10 @@
+# Interview tips
+- Requirements (functional, non-functional)
+- Core entities
+- API
+- High level desgin
+- Deep dives
+
 # Databases
 - Read Heavy Database
   - Content Delivery Networks (CDNs) and Caching Systems
