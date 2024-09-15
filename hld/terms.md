@@ -57,11 +57,14 @@
   - SET foo 1
   - GET foo            // returns 1
   - INCR foo           // returns 2
+- 
 
 # Apache Kafka
 - <img src="https://github.com/user-attachments/assets/4d51b954-6ef2-4ddf-b4df-1e4959ec74fc" width="400" />
 - <img src="https://github.com/user-attachments/assets/34333790-6539-4c05-8aef-8439e0293f44" width="400" />
 - <img src="https://github.com/user-attachments/assets/63211778-99a3-4020-8744-3a1bd40a16bf" width="400" />
 
+# Some terms
 
+- Changed data capture
 
