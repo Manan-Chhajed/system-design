@@ -26,3 +26,5 @@
   - Making the return type const
   - Making member function const: The function won't modify any member variables
   - Making parameters const
+
+- C++ basics
