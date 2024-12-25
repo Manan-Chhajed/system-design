@@ -68,3 +68,5 @@
 
 - Changed data capture
 
+- Long polling vs Short polling
+
