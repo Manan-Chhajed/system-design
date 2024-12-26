@@ -64,6 +64,11 @@
 - <img src="https://github.com/user-attachments/assets/34333790-6539-4c05-8aef-8439e0293f44" width="400" />
 - <img src="https://github.com/user-attachments/assets/63211778-99a3-4020-8744-3a1bd40a16bf" width="400" />
 
+# gRPC
+- Why gRPC?
+  - Sending JSON by HTTP is expensive because of data marshalling and unmarshalling.
+  - gRPC uses Protocol Buffers as it's default serialization mechanism which is a binary serialization. 
+
 # Some terms
 
 - Changed data capture
