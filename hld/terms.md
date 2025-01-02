@@ -67,7 +67,9 @@
 # gRPC
 - Why gRPC?
   - Sending JSON by HTTP is expensive because of data marshalling and unmarshalling.
-  - gRPC uses Protocol Buffers as it's default serialization mechanism which is a binary serialization. 
+  - gRPC uses Protocol Buffers as it's default serialization mechanism which is a binary serialization.
+- Related
+  - http/2, how it eliminates HOL blocking at application layer, but not at transport layer (for which we have http/3)
 
 # Some terms
 
