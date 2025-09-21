@@ -1,1 +1,16 @@
-
+# Changed Data Capture (CDC)
+- Technique to detect and capture row-level inserts, updates, deletes in a database.
+- Send only the changes (not full data) to downstream systems in real time or near real time.
+- Use cases: Replication, event-driven systems, analytics pipelines, cache sync.
+- Types:
+  - Log-based CDC
+    - Reads transaction logs (e.g., MySQL binlog, Postgres WAL).
+  - Trigger-based CDC
+    - Uses DB triggers to write changes into a change table.
+  - Timestamp / Version column CDC
+    - Track changes using last_updated or version column.
+  - Table Diffing (Polling)
+    - Compare snapshots periodically.
+  - Key Technical Terms
+    - Transaction Log / WAL → recording all intended changes to a sequential, append-only log file before the changes are applied to the main data files
+    - CDC is a real-time, incremental alternative to batch ETL, implemented via log-based, trigger-based, timestamp-based, or diff-based methods, and is critical for replication, streaming, and modern data pipelines.
